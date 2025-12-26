@@ -11,6 +11,7 @@ const nextConfig: NextConfig = {
     turbopackFileSystemCacheForDev: true,
   },
   assetPrefix: "adminDashboard",
+  basePath: "/adminDashboard",
   allowedDevOrigins: [
     "http://localhost:3000",
     "http://localhost:3001",
